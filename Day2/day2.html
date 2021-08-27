@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <div class="day2-background no-animation">
+        <div class="line line-one"></div>
+        <div class="line line-two"></div>
+        <div class="line line-three"></div>
+    </div>
+</body>
+<script>
+    $(".day2-background").click('click', function(){
+        $(".day2-background").toggleClass("activate");
+        $(".day2-background").removeClass("no-animation");
+
+    });
+</script>
+</html>
